@@ -1,0 +1,17 @@
+header {
+  display: flex;
+}
+nav {
+  margin-left: 200px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+dl {
+  background-color: aquamarine;
+  color: crimson;
+  font-size: 30px;
+  font-weight: 600;
+}
