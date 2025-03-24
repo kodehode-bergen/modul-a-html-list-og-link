@@ -9,9 +9,30 @@ ul {
   display: flex;
   gap: 10px;
 }
+ul a {
+  text-decoration: none;
+}
 dl {
   background-color: aquamarine;
   color: crimson;
   font-size: 30px;
   font-weight: 600;
+}
+.styled-links {
+  color: red;
+  text-decoration: none;
+}
+.styled-links a {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: orange;
+}
+a:hover {
+  color: blue;
+  cursor: pointer;
+}
+a:active {
+  color: green;
 }
